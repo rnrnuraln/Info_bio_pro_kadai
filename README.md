@@ -9,15 +9,17 @@ KUKU-Like multiplication alignment
 ## INSTALL
 
 　インストール方法
+　ここでautotoolsを使おうとしたのですが、苦戦しています。ソースコード自体はほとんど問題ないと思われるので、プルリクエストを受け付けております。遅くなってしまい申し訳ございません。
+　hasesuns氏へのプルリクは、夕方ぐらいまでに簡単なものを送る予定です。遅くなってしまい申し訳ございません。
 
 ````
-    $ ./configure
+$ ./configure
 ````
 
   then
 
 ````
-  　$ make install
+$ make install
 ````
  
 ## USAGE
@@ -25,25 +27,22 @@ KUKU-Like multiplication alignment
   以下のようにコマンドライン引数に対し二つの渡します。
 
 ````
-    $ kuku 2 3
+$ kuku 2 3
 ````
 
 　結果が以下のように表示される。
 
 ````
-    1 2 3 
-    2 4 6 
+1 2 3 
+2 4 6 
 ````
 
 　コマンドライン引数-pを用いると足し算を表示する。
 
 ````
-    kuku -p 2 3
-````
-
-````
-    2 3 4 
-    3 4 5 
+$ kuku -p 2 3
+2 3 4 
+3 4 5 
 ````
 
 ## AUTHOR
