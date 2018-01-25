@@ -2,4 +2,4 @@ language: cpp
 compiler: g++
 script:
   - g++ --version
-  - g++ python waf configure && python waf build && kuku -t 2 3
+  - python waf configure && python waf build && kuku -t 2 3
