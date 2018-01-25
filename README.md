@@ -2,9 +2,9 @@ KUKU-Like multiplication alignment
 
 ## DESCRIPTION
 
-　引数を九九のように表示するプログラムです。
-　コマンドラインから二つの整数x, y を受け取り、九九の要領で [1..x] × [1..y ] のかけ算表を表示します。
-　このプログラムは、情報生命プログラム演習Iの課題のために作成されました。
+　引数を九九のように表示するプログラムです。  
+　コマンドラインから二つの整数x, y を受け取り、九九の要領で [1..x] × [1..y ] のかけ算表を表示します。  
+　このプログラムは、情報生命プログラム演習Iの課題のために作成されました。  
 
 ## REQUIREMENTS
 
@@ -49,14 +49,15 @@ $ kuku -p 2 3
 
 ## AUTHOR
 
-  Kentaro Tara
-  連絡先: ｍｕｓｉｃ１１１６ｋｅｎ☆ｙａｈｏｏ．ｃｏ．ｊｐ
-  半角に直し、☆をアットマークに直してください。
+  Kentaro Tara  
+  連絡先: ｋｉｄ．ｏｆ．ｃｏｄ４２８☆ｇｍａｉｌ．ｃｏｍ  
+  半角に直し、☆をアットマークに直してください。  
 
 ## LICENSE
 
-  THE MIT LICENSE
-  This includes waf script. It is BSD License. To use waf, follow the sentences below.
+  THE MIT LICENSE  
+
+  This includes waf script. It is BSD License. To use waf, follow the sentences below.  
 
   Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -84,6 +85,13 @@ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
 IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
-## BUG 
+## BUG_FIX_REQUEST 
 
   GitHubのIssueのところにお願いします。
+
+
+## TRAVIS_CI BADGE
+
+  TRAVIS_CIのバッジです。  
+
+[![Build Status](https://travis-ci.org/rnrnuraln/Info_bio_pro_kadai.svg?branch=master)](https://travis-ci.org/rnrnuraln/Info_bio_pro_kadai)
