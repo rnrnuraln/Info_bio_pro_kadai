@@ -1,3 +1,5 @@
 language: cpp
 compiler: g++
-script: g++ src/kuku.cpp && ./a.out -t 2 3
+script:
+  - g++ --version
+  - g++ python waf configure && python waf build && kuku -t 2 3
