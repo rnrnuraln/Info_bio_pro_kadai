@@ -25,9 +25,9 @@ int main(int argc, char *argv[]) {
 	for (int i = 1; i < x + 1; i++) {
 		string s = "";
 		for (int j = 1; j < y + 1; j++) {
-			int i_j = i * j; //Š|‚¯ŽZ‚ÌŽÀs
+			int i_j = i * j; //do multiplication
 			if (plusFlag) {
-				i_j = i + j; //‘«‚µŽZ‚ÌŽÀs
+				i_j = i + j; //do addition
 			}
 			s += to_string(i_j);
 			s += " ";
