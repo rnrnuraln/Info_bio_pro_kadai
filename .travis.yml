@@ -1,2 +1,3 @@
 language: cpp
+compiler: g++
 script: g++ src/kuku.cpp && ./a.out -t 2 3
