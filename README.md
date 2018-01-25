@@ -21,6 +21,8 @@ $ python waf configure
 ````
 $ python waf build
 ````
+
+　により、ビルド可能です。出来上がったバイナリファイルはbuild以下に置かれます。
  
 ## USAGE
 
@@ -48,13 +50,40 @@ $ kuku -p 2 3
 ## AUTHOR
 
   Kentaro Tara
-  連絡先: 
-  スクショを貼る
+  連絡先: ｍｕｓｉｃ１１１６ｋｅｎ☆ｙａｈｏｏ．ｃｏ．ｊｐ
+  半角に直し、☆をアットマークに直してください。
 
 ## LICENSE
 
-  Public Domain
+  THE MIT LICENSE
+  This includes waf script. It is BSD License. To use waf, follow the sentences below.
 
-## For bugs, wishes, etc.
+  Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
 
-  GitHubのIssueのところに書いといてください。
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+## BUG 
+
+  GitHubのIssueのところにお願いします。
