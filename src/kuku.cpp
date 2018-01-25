@@ -12,7 +12,7 @@ string xyToOutput(int x, int y, bool plusFlag) {
 			if (plusFlag) {
 				i_j = i + j;
 			}
-			s += to_string(i_j);
+			s += std::to_string(i_j);
 			if (i != y) {
 				s += " ";
 			}
@@ -40,17 +40,16 @@ int main(int argc, char *argv[]) {
 				assert(s == "2");
 				break;
 			}
-			default: {
-				abort ();
-			}
+			default: 
+				break;
 		}
 	
 	if (argc < 2) {
 		cout << "no enough arguments" << endl;
 		return 0;
 	}
-	int x = stoi(argv[argc - 2]);
-	int y = stoi(argv[argc - 1]);
+	int x = std::stoi(argv[argc - 2]);
+	int y = std::stoi(argv[argc - 1]);
 	string s = xyToOutput(x, y, plusFlag);
 	cout << s << endl;
 	return 0;
