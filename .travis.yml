@@ -2,4 +2,4 @@
 compiler: g++
 script:
   - g++ --version
-  - g++ src/kuku.cpp -std=c++11 && /a.out -t 2 3
+  - g++ src/kuku.cpp -std=c++11 && ./a.out -t 2 3
